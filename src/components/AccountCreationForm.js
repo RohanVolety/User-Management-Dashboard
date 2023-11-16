@@ -5,10 +5,8 @@ const AccountCreationForm = () => {
     const [password, setPassword] = useState('');
 
     const handleSubmit = (event) => {
-        event.preventDefault();
-        //Dummy Handling of  form submission
-        console.log('Creating account with username:', username, 'and password:', password);
-
+        event.preventDefault();      
+        console.log('Creating account with username:', username, 'and password:', password);//Dummy Handling of request.Can change according to requirement.
         setUsername('');
         setPassword('');
     };
