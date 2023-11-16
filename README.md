@@ -15,7 +15,7 @@ Before you begin, ensure you have met the following requirements:
 ```
 1. Navigate to the project dictory:
 ```
-cd user-management-dashboard
+cd User-Management-Dashboard
 ```
 
 2. Install depedencies
